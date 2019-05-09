@@ -1,4 +1,4 @@
-# Basic-Linux-Scripts-Along-with-one-liners
+# Basic Linux Scripts Along with one liners
 Scripts to do those basic tasks that are quite tedious...
 Keep these scripts in a custom bin folder and add this folder to $PATH
 
@@ -10,3 +10,7 @@ So here's how we start :
 #### #!/bin/bash
 
 #### #Enter your bash commands, lines preceeded with a '#' are comments.
+
+## One liners :
+gets the gedit preferences tab back
+#### gsettings set org.gnome.settings-daemon.plugins.xsettings overrides '@a{sv} {"Gtk/ShellShowsAppMenu": <int32 0>}'
