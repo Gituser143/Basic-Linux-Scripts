@@ -1,4 +1,4 @@
-# Basic-Linux-Scripts
+# Basic-Linux-Scripts-Along-with-one-liners
 Scripts to do those basic tasks that are quite tedious...
 Keep these scripts in a custom bin folder and add this folder to $PATH
 
