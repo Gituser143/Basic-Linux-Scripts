@@ -1,0 +1,3 @@
+#!/bin/bash
+# update and upgrade everything
+apt update -y && apt upgrade -y && apt full-upgrade && apt-get dist-upgrade
