@@ -4,8 +4,8 @@ Keep these scripts in a custom bin folder and add this folder to $PATH
 
 How to add this folder? 
 
-    gedit .profile and then 
-    export PATH="$PATH:/root/bin"
+    gedit .profile 
+    add this line => export PATH="$PATH:/root/bin"
 
 So here's how we write a script :
 
