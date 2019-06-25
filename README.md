@@ -9,7 +9,7 @@ How to add this folder?
 
 So here's how we write a script :
 
-    !/bin/bash
+    #!/bin/bash
     #Enter your bash commands, lines preceeded with a '#' are comments.
 
 # Scripts : 
