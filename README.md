@@ -22,6 +22,3 @@ So here's how we write a script :
     First use "fdisk -l" to find the drive location. 
     If drive is in sdb1, then run "bitlocker b1". If drive is in sdc2, then run "bitlocker c2".
 
-# One liners :
-## i) gets the gedit preferences tab back
-    gsettings set org.gnome.settings-daemon.plugins.xsettings overrides '@a{sv} {"Gtk/ShellShowsAppMenu": <int32 0>}'
