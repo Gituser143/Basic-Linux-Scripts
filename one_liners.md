@@ -1,32 +1,32 @@
-# Gets the gedit prefernces tab back:
+### Gets the gedit prefernces tab back:
     gsettings set org.gnome.settings-daemon.plugins.xsettings overrides '@a{sv} {"Gtk/ShellShowsAppMenu": <int32 0>}'
 
 
-# Changes terminal line settings
+### Changes terminal line settings
     stty
 
 
-# stop displaying terminal input
+### stop displaying terminal input
     stty -echo
 
 
-# reset and display terminal input
+### reset and display terminal input
     stty echo
 
 
-# Describes file type
+### Describes file type
     file [file/dir]
 
 
-# logs terminal commands and makes it a script, places it in directory [dir]
+### logs terminal commands and makes it a script, places it in directory [dir]
     # script [dir]
 
-# creates file with filname and timestamp
+### creates file with filname and timestamp
     touch filename`date +%d`
 %d for day
 %m for month
 %y for years
 
-# reports file system disk usage stats
+### reports file system disk usage stats
     df 
 	
