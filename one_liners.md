@@ -19,7 +19,7 @@
 
 
 ### logs terminal commands and makes it a script, places it in directory [dir]
-    # script [dir]
+    script [dir]
 
 ### creates file with filname and timestamp
     touch filename`date +%d`
