@@ -30,3 +30,7 @@
 ### reports file system disk usage stats
     df 
 	
+
+### change the terminal prompt
+    export PS1="Myprompt" 
+	
