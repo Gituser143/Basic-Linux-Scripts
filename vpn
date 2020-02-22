@@ -1,0 +1,2 @@
+#! /bin/bash
+openvpn --config /root/Downloads/VPNBook.com-OpenVPN-DE4/vpnbook-de4-tcp443.ovpn
