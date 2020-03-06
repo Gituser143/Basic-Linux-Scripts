@@ -4,7 +4,7 @@ One liners are in the one_liners.md file
 Scripts to do those basic tasks that are quite tedious...
 Keep these scripts in a custom bin folder and add this folder to $PATH
 
-How to add this folder? 
+How to add this folder?   
 ```echo "export PATH="$PATH:/path/to/your/bin" >> .profile```
 
 So here's how we write a script :
