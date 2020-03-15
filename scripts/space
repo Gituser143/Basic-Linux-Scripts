@@ -1,2 +1,2 @@
 #! /bin/zsh
-df -h | head -n1 && df -h | grep sda
+echo $(tput bold)$(df -h | head -n1) $(tput sgr0) && df -h | grep sda
