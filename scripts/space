@@ -1,2 +1,3 @@
 #! /bin/zsh
-echo $(tput bold)$(df -h | head -n1) $(tput sgr0) && df -h | grep sda
+#echo $(tput bold)$(df -h | head -n1)$(tput sgr0)
+echo $(tput bold)"Filesystem      Size  Used Avail Use% Mounted on"$(tput sgr0) && df -h | grep sda
