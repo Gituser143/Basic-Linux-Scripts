@@ -1,5 +1,8 @@
 #!/bin/bash
-sudo dislocker -V /dev/sd$1 -u -- /media/bitlocker
+fdisk -l
+echo -e "\n===============================================\n"
+read -p "Enter device name. Example: sda1 or sda2: " DEVICE
+sudo dislocker -V /dev/${DEVICE} -u -- /media/bitlocker
 sudo mount -o loop /media/bitlocker/dislocker-file /media/mount
 
 #umount /media/bitlocker && umount /media/bitlocker/dislocker-file
