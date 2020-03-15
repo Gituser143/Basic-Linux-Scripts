@@ -1,9 +1,23 @@
 #!/bin/bash
+if [[ $UID -ne 0 ]]
+then
+  echo "Please run as root or with sudo"
+  exit 1
+fi
+
 fdisk -l
 echo -e "\n===============================================\n"
 read -p "Enter device name. Example: sda1 or sda2: " DEVICE
-sudo dislocker -V /dev/${DEVICE} -u -- /media/bitlocker
-sudo mount -o loop /media/bitlocker/dislocker-file /media/mount
+dislocker -V /dev/${DEVICE} -u -- /media/bitlocker
+mount -o loop /media/bitlocker/dislocker-file /media/mount
 
+if [[ $? -ne 0 ]]
+then
+  echo "Mount failed"
+  exit 1
+fi
+
+echo -e "\nMounted\n"
+exit 0
 #umount /media/bitlocker && umount /media/bitlocker/dislocker-file
 #umount /media/mount && umount /media/bitlocker
