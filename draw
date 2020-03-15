@@ -1,2 +1,2 @@
 #! /bin/bash 
-drawio --no-sandbox
+drawio --no-sandbox &> /dev/null

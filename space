@@ -1,0 +1,2 @@
+#! /bin/zsh
+df -h | head -n1 && df -h | grep sda
