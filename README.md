@@ -5,7 +5,7 @@ Scripts to do those basic tasks that are quite tedious...
 Keep these scripts in a custom bin folder and add this folder to $PATH
 
 How to add this folder?   
-```echo "export PATH="$PATH:/path/to/your/bin" >> ~/.profile```
+```echo "export PATH="$PATH:/path/to/your/scripts" >> ~/.profile```
 
 So here's how we write a script :
 
@@ -22,3 +22,4 @@ So here's how we write a script :
 * **notebook**: Run jupyter as root in Kali
 * **vlc_root**: Allow VLC media player to run as root
 * **vpn**: Custom OpenVPN config
+* **space**: Display space usage
