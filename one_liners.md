@@ -26,6 +26,7 @@
 %d for day
 %m for month
 %y for years
+Back tick is used for command execution
 
 ### reports file system disk usage stats
     df 
@@ -33,4 +34,3 @@
 
 ### change the terminal prompt
     export PS1="Myprompt" 
-	
