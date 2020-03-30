@@ -23,10 +23,10 @@
 
 ### creates file with filname and timestamp
     touch filename`date +%d`
-%d for day
-%m for month
-%y for years
-Back tick is used for command execution
+%d for day  
+%m for month  
+%y for years  
+Back tick is used for command execution  
 
 ### reports file system disk usage stats
     df 
