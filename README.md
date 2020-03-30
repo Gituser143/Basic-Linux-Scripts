@@ -1,4 +1,6 @@
-# Basic Linux Scripts Along with one liners
+Basic Linux Scripts Along with one liners
+==========================================
+
 One liners are in the one_liners.md file
 
 Scripts to do those basic tasks that are quite tedious...
@@ -12,7 +14,9 @@ So here's how we write a script :
     #!/bin/bash
     #Enter your bash commands, lines preceeded with a '#' are comments.
 
-# Scripts : 
+Scripts : 
+=========
+
 * **dpkg_lock**: For the dpkg frontend lock error. Just run the script, but be cautious. Run it only if error is thrown.
 * **update**: For full system update and upgrade. Just run, if dpkg lock error comes up, use the above script and then run.
 * **bitlocker**: For decrypting and mounting devices. If dislocker is not installed, then run "apt install dislocker".
@@ -23,3 +27,4 @@ So here's how we write a script :
 * **vlc_root**: Allow VLC media player to run as root
 * **vpn**: Custom OpenVPN config
 * **space**: Display space usage
+* **pdf**: A custom script that calls evince and disowns
