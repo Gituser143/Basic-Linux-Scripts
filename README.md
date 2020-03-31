@@ -1,7 +1,7 @@
 Basic Linux Scripts Along with one liners
 ==========================================
 
-One liners are in the one_liners.md file
+## One liners are in the one_liners.md file
 
 Scripts to do those basic tasks that are quite tedious...
 Keep these scripts in a custom bin folder and add this folder to $PATH
