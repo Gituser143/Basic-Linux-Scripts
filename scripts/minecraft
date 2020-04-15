@@ -1,3 +1,10 @@
 #!/bin/bash
-cd /root/Downloads/TLauncher-2.66;
-java -jar TLauncher-2.66.jar & disown ;
+
+if [[ $UID -ne 0 ]]
+then
+  echo "Run as Root"
+  exit 1
+fi
+
+cd ~/Downloads/TLauncher-2.69
+java -jar TLauncher-2.69.jar
