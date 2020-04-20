@@ -6,5 +6,5 @@ then
   exit 1
 fi
 
-cd ~/Downloads/TLauncher-2.69
-java -jar TLauncher-2.69.jar
+cd /home/user/Downloads/TLauncher-2.69;
+java -jar TLauncher-2.69.jar;
