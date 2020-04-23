@@ -1,0 +1,3 @@
+#!/bin/zsh
+/usr/bin/conky -c /home/user/.config/conky/conky.conf &> /dev/null &
+
