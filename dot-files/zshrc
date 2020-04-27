@@ -97,9 +97,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+alias refresh="xdotool key 'Alt+F2+r' && sleep 0.5 && xdotool key 'Return'"
 #fpath+=$HOME/.zsh/pure
 #autoload -U promptinit; promptinit
 #prompt pure
-echo -e "\033];#!\007"
+echo -e "\033]; \007"
 
