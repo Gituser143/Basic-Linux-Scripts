@@ -8,8 +8,8 @@ fi
 fdisk -l
 echo -e "\n===============================================\n"
 read -p "Enter device name. Example: sda1 or sda2: " DEVICE
-dislocker -V /dev/${DEVICE} -u -- /media/bitlocker
-mount -o loop /media/bitlocker/dislocker-file /media/mount
+dislocker -V /dev/${DEVICE} -u -- /media/user/
+mount -o loop /media/user/dislocker-file /media/dislocker-loop
 
 if [[ $? -ne 0 ]]
 then
