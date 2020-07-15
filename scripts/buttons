@@ -1,8 +1,10 @@
 #! /bin/bash
 
 if [[ $# -ne 1 ]]
-then 
+then
 	echo "USAGE: $0 SET/RESET"
+  echo "SET: Removes Buttons"
+  echo "RESET: Brings back all buttons"
 	exit 1
 fi
 
